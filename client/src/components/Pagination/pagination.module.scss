@@ -1,0 +1,23 @@
+.pagination_container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px !important;
+}
+
+.pagination_list{
+    // border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.i_font{
+    font-size: 1rem !important;
+}
+
+.active{
+    background-color: #222;
+    
+    & a{
+        color: #fff !important;
+    }
+}

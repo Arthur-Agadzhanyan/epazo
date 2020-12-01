@@ -1,0 +1,85 @@
+@import "~materialize-css/sass/materialize.scss";
+
+$form-heigth: 300px;
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+// body::-webkit-scrollbar{
+//   width: 10px;
+//   height: 10px;
+// }
+// body::-webkit-scrollbar-thumb {
+//   background: rgba(255, 255, 255, 0.808);
+// }
+// body::-webkit-scrollbar-track{
+//   background: #26252d;
+// }
+/*
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// } */
+
+.wrapper{
+  display: flex;
+  flex-direction: column; 
+}
+
+.content{
+  flex-grow: 1;
+  min-height: 80vh;
+}
+
+.ck-file-dialog-button{
+  display: none;
+}
+
+.ck:nth-child(15){
+  display: none;
+}
+
+
+.ck-dropdown__panel_sw .ck:nth-child(2) {
+  display: none;
+
+}
+
+// .ck-toolbar__items .ck::nth-child(6){
+//   display: none;
+// }
+
+.ck-content .li::marker{
+  padding-left: 20px;
+}
+
+blockquote{
+  border-left: 5px solid #ccc
+}
+.ck-editor__main{
+  ul:not(.browser-default) > li{
+    list-style: circle inside !important;
+  }
+  ol{
+    list-style-position: inside !important;  
+  }
+}
+
+.ck-blurred{
+  overflow: scroll;
+  min-height: $form-heigth;
+}
+
+.ck-focused{
+  overflow: scroll;
+  min-height: $form-heigth;
+}
+
