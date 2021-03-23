@@ -1,7 +1,7 @@
 {
-    "PORT": "80",
-    "mongoUri": "mongodb+srv://artur:kataard@cluster0.dtyel.mongodb.net/app?retryWrites=true&w=majority",
-    "jwtSecret":"bloginatorlog",
-    "baseUrl":"https://epazo.netlify.app",
-    "botToken": "1394975541:AAF0Zj8rj9lbnKpvLjJDu4udbObxZnIo2FU"
+    "PORT": "Ваш порт",
+    "mongoUri": "MONGOURI",
+    "jwtSecret":"JWTSECRET",
+    "baseUrl":"BASEURL",
+    "botToken": "BOTTOKEN"
 }
